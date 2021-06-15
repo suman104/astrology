@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Astrology Home</title>
+  <link href="@{../static/css/main.css}" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="main">
+  <h1>Welcome to Astrology Home</h1> 
+  <h2>Calculate Your Marriage Match</h2>
+
+  <p><a href="/calculate">calculate</a></p>
+  <p>Style Sheets (CSS)</p>
+  <p>Computer Code (JavaScript)</p>
+  <p>Live Data (Files and Databases)</p>
+</div>
+
+</body>
+</html> 

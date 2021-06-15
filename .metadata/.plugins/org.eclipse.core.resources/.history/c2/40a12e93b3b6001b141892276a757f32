@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+
+<head>
+	<title>Provide info</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<link href="css/myform.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<h1>Provide the below info to calculate your matching percentage</h1>
+	<div class="form-style-3">
+
+		<form action="#" th:action="@{/getMatchPercentage}" th:object="${homeRequestInput}" method="post">
+			<fieldset>
+				<legend>Your Info</legend>
+				<label for="field1"><span>Name <span class="required">*</span></span><input type="text"
+						class="input-field" name="field1" value="" /></label>
+							<label for="field1"><span>Name <span class="required">*</span></span><input type="text"
+						class="input-field" name="field1" value="" /></label>
+				<label for="field2"><span>Email <span class="required">*</span></span><input type="email"
+						class="input-field" name="field2" value="" /></label>
+				<label for="field3"><span>Phone <span class="required">*</span></span><input type="text"
+						class="input-field" name="field3" value="" /></label>
+							<label for="field3"><span>Phone <span class="required">*</span></span><input type="text"
+						class="input-field" name="field3" value="" /></label>	<label for="field3"><span>Phone <span class="required">*</span></span><input type="text"
+						class="input-field" name="field3" value="" /></label>	<label for="field3"><span>Phone <span class="required">*</span></span><input type="text"
+						class="input-field" name="field3" value="" /></label>
+				<!--<label for="field4"><span>Subject</span><select name="field4" class="select-field">
+						<option value="Appointment">Appointment</option>
+						<option value="Interview">Interview</option>
+						<option value="Regarding a post">Regarding a post</option>
+					</select></label>-->
+			<!--</fieldset>
+			<fieldset>
+				<legend>Message</legend>
+				<label for="field6"><span>Message <span class="required">*</span></span><textarea name="field6"
+						class="textarea-field"></textarea></label>-->
+				<label><span> </span><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></label>
+			</fieldset>
+
+
+
+
+			<p>Boy Name: <input type="text" th:field="*{boyName}" /></p>
+			<p>Girl Name: <input type="text" th:field="*{girlName}" /></p>
+			<p>Boy Nakhyatra Number: <input type="text" th:field="*{nboy}" /></p>
+			<p>Girl Nakhyatra Number: <input type="text" th:field="*{ngirl}" /></p>
+			<p>Boy Rasi Number: <input type="text" th:field="*{rboy}" /></p>
+			<p>Girl Rasi Number: <input type="text" th:field="*{rgirl}" /></p>
+			<p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+		</form>
+	</div>
+</body>
+
+</html>

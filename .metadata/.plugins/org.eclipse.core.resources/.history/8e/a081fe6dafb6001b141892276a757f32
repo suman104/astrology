@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Astrology Home</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="main">
+  <h1>Welcome to Astrology Home</h1> 
+  <h2>Calculate Your Marriage Match</h2>
+  <h3>We need names of Groom & Bride to calculate</h3>
+  <h3>If you are aware of Nakhyatra & Rasi number of Groom & Bride, you can directly provide them </h3>
+  
+  <h2>Provide Your Data & get your match score. All The Best!!! </h2>
+
+  <form action="/calculate">
+        <button class = "gfg" type="submit">
+          CALCULATE HERE
+        </button>
+    </form>
+</div>
+
+
+</body>
+</html> 

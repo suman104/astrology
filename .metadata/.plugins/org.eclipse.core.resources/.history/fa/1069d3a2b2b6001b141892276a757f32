@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+
+<head>
+	<title>Provide the below info to calculate your matching percentage</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="form-style-3">
+
+	<form action="#" th:action="@{/getMatchPercentage}" th:object="${homeRequestInput}" method="post">
+	
+		<p>Boy Name: <input type="text" th:field="*{boyName}" /></p>
+		<p>Girl Name: <input type="text" th:field="*{girlName}" /></p>
+		<p>Boy Nakhyatra Number: <input type="text" th:field="*{nboy}" /></p>
+		<p>Girl Nakhyatra Number: <input type="text" th:field="*{ngirl}" /></p>
+		<p>Boy Rasi Number: <input type="text" th:field="*{rboy}" /></p>
+		<p>Girl Rasi Number: <input type="text" th:field="*{rgirl}" /></p>
+		<p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+	</form>
+	</div>
+</body>
+
+</html>

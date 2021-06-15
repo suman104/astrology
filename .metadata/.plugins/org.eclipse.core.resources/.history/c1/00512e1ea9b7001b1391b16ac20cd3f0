@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Astrology Home</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="main">
+  <h1>Welcome to Astrology Home</h1> 
+  <h2>Calculate Your Marriage Match</h2>
+  <h4>Please provide the name of Groom & Bride.</h4>
+  <h4>If you are aware of Nakhyatra & Rasi number of Groom & Bride, you can directly provide them as well.</h4>
+  
+  
+  <h2>Provide Your Data & get your match score. All The Best!!! </h2>
+
+  <form action="/calculate">
+        <button class = "homebutton" type="submit">
+          PROVIDE DATA & CALCULATE HERE
+        </button>
+    </form>
+</div>
+<div>
+<iframe
+    allow="microphone;"
+    width="350"
+    height="430"
+    src="https://console.dialogflow.com/api-client/demo/embedded/56625d47-a46d-47be-a0fb-6831b77aa558">
+</iframe>
+</div>
+
+</body>
+</html> 

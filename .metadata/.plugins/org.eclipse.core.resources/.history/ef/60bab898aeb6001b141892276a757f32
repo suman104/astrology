@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Astrology Home</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="main">
+  <h1>Welcome to Astrology Home</h1> 
+  <h2>Calculate Your Marriage Match</h2>
+
+  <p><a href="/calculate">calculate</a></p>
+</div>
+
+
+</body>
+</html> 
